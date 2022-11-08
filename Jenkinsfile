@@ -58,7 +58,7 @@ pipeline {
         stage("trigger"){  
                 when {
                         expression{
-                           return WINDOWS_X64 == true
+                           return WINDOWS_X64_ == true
                         }
                     }        
                  steps{
