@@ -12,7 +12,7 @@ pipeline {
     }
 
      stages {
-        stage('Hello') {
+        stage('Hello_testing') {
             steps {
                 script{
                     //   def var1 = currentBuild.getBuildCauses('org.jfrog.hudson.trigger.ArtifactoryCause')[0]?.url
